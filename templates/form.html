@@ -1,0 +1,59 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>PHP Mongo App</title>
+<link rel="stylesheet" type="text/css" href="templates/view.css" media="all">
+<script type="text/javascript" src="templates/view.js"></script>
+
+</head>
+<body id="main_body" >
+	
+	<img id="top" src="templates/images/top.png" alt="">
+	<div id="form_container">
+	
+		<h1><a>Mongo App</a></h1>
+		<form id="form_194554" class="appnitro"  method="post" action="insert.php">
+					<div class="form_description">
+			<h2>PHP Mongo App</h2>
+			<p>Simple App to get introduced with Mongo </p>
+		</div>						
+			<ul >
+			
+					<li id="li_1" >
+		<label class="description" for="element_1">Topic Title </label>
+		<div>
+			<input id="element_1" name="element_1" class="element text medium" type="text" maxlength="255" value=""/> 
+		</div> 
+		</li>		<li id="li_2" >
+		<label class="description" for="element_2">Classification </label>
+		<div>
+		<select class="element select medium" id="element_2" name="element_2"> 
+			<option value="" selected="selected"></option>
+<option value="Location" >Location</option>
+<option value="Person" >Person</option>
+<option value="Business" >Business</option>
+
+		</select>
+		</div> 
+		</li>		<li id="li_3" >
+		<label class="description" for="element_3">Description </label>
+		<div>
+			<textarea id="element_3" name="element_3" class="element textarea medium"></textarea> 
+		</div> 
+		</li>
+			
+					<li class="buttons">
+			    <input type="hidden" name="form_id" value="194554" />
+			    
+				<input id="saveForm" class="button_text" type="submit" name="submit" value="Submit" />
+		</li>
+			</ul>
+		</form>	
+		<div id="footer">
+			Demo APP for playing with mongoDB
+		</div>
+	</div>
+	<img id="bottom" src="templates/images/bottom.png" alt="">
+	</body>
+</html>
